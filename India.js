@@ -20,5 +20,4 @@ Runs : {runs}
 
 }
 
-
 export default India;
