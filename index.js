@@ -3,9 +3,8 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
 import Parent from './Parent';
-import Context from './my.context'
-
-
+import {CricketProvider} from  './my.context'
+import India from './India'
 class App extends Component {
   constructor() {
     super();
@@ -26,4 +25,4 @@ class App extends Component {
   }
 }
 
-render(<Parent />, document.getElementById('root'));
+render(<CricketProvider><India /></CricketProvider>, document.getElementById('root'));
