@@ -8,7 +8,9 @@ return (
   val=>{
     return (
       <div>
-The name is {val}
+The name is {val.name} . <br/>
+Age : {val.age}<br/>
+Salary : {val.sal}
       </div>
     )
   }
