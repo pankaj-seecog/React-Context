@@ -4,7 +4,7 @@ import {CricketContext} from  './my.context';
 
 class India extends React.Component{
   static contextType = CricketContext;
-l
+
 
 render(){
   let {runs,players,makeFour} = this.context;
